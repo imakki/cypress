@@ -24,6 +24,8 @@ describe("Form test", () => {
     });
 
     cy.get("form").submit();
+
+    //once the form is saved and api response has come, we can check in the page if response is correct or not
     cy.contains("Saved");
   });
 });

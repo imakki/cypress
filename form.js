@@ -13,7 +13,7 @@ document.addEventListener("formdata", (event) => {
   //get the response
   request.onload = function () {
     const jsonResponse = JSON.parse(this.response);
-    //dangerously set response from server ust for passign test case purpose, do not do this in production code
+    //dangerously set response from server just for passign test case purpose, do not do this in production code
     document.body.innerHTML += `Response from the server: ${jsonResponse.status}`;
   };
 });
