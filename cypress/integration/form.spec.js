@@ -13,7 +13,7 @@ describe("Form test", () => {
 
     cy.get("textarea")
       .type("what's on your mind? share it with everyone.")
-      .should("have.value", "what's on your mind? share it with everyone.");
+      .should("have.value", "what's on your mind?hare it with everyone.");
 
     //create virtual server
     cy.server();
