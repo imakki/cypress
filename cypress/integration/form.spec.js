@@ -5,7 +5,7 @@ describe("Form test", () => {
 
     //using css selector to select the input element and typing in it and checking it value for correctness
     //if you want to learn more about assertions like should and get, visit https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Assertions
-    cy.get('input[name="name"]').type("Ankith").should("have.value", "Ankith");
+    cy.get('input[name="name"]').type("Ankit").should("have.value", "Ankit");
 
     cy.get('input[name="email"]')
       .type("ankit@dev.com")
