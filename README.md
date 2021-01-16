@@ -9,3 +9,5 @@
 ### Steps to run
   - clone this repository
   - npm install
+  - go into root directory and type ' node_modules/.bin/cypress open ' to open cypress test environment
+ 
