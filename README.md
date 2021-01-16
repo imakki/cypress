@@ -7,4 +7,5 @@
    2.Vanilla js (for interactivity)
    3.Cypress (for e2e testing)
 ### Steps to run
- 
+  - clone this repository
+  - npm install
